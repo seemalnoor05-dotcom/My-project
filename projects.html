@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects & Contact | Seemal Noor</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAF0F6;
+            color: #333333;
+        }
+
+        /* ------------------- Header & Navigation ------------------- */
+        header {
+            background-color: #9370DB;
+            padding: 15px 0;
+            box-shadow: 0 4px 8px rgba(147, 112, 219, 0.2);
+            text-align: center;
+        }
+
+        .navbar {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+
+        .logo a {
+            color: #ffffff;
+            font-size: 1.6em;
+            font-weight: bold;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: #F08080;
+            color: #1a1a1a;
+        }
+
+        .nav-links .active {
+            background-color: #7B68EE;
+            font-weight: bold;
+        }
+
+        /* ------------------- Main Content ------------------- */
+        main {
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 0 10px;
+        }
+
+        h2 {
+            color: #9370DB;
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 8px 12px rgba(147, 112, 219, 0.2);
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: #9370DB;
+            font-size: 1.4em;
+            border-bottom: 2px solid #F08080;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+            text-align: center;
+        }
+
+        .skill-card {
+            background-color: #F8F0FA;
+            border: 1px solid #D8BFD8;
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        .skill-icon {
+            font-size: 1.5em;
+            color: #F08080;
+            margin-bottom: 5px;
+        }
+
+        /* ------------------- Projects Table ------------------- */
+        .project-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .project-table th,
+        .project-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .project-table th {
+            background-color: #F7A8A8;
+            color: #1a1a1a;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.8em;
+        }
+
+        .project-row:hover {
+            background-color: #F8F0FA;
+            transition: 0.2s;
+        }
+
+        .status-badge {
+            padding: 4px 10px;
+            border-radius: 15px;
+            font-size: 0.75em;
+            font-weight: bold;
+            color: #ffffff;
+	    white-space: nowrap;
+        }
+
+        .completed { background-color: #3CB371; }
+        .in-progress { background-color: #FFA07A; color: #333; }
+
+        /* ------------------- Social Links ------------------- */
+        .social-links {
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        .social-icon {
+            display: inline-block;
+            margin: 0 8px;
+            text-decoration: none;
+            color: #9370DB;
+            font-size: 0.9em;
+            font-weight: bold;
+            padding: 8px 12px;
+            border: 2px solid #F08080;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        .social-icon:hover {
+            background-color: #F8E6F0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="aboutus.html">Seemal Noor Portfolio</a>
+            </div>
+            <div class="nav-links">
+                <a href="aboutus.html">About Us</a>
+                <a href="projects.html" class="active">Projects & Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Work Experience & Key Projects</h2>
+
+        <!-- Skills Section -->
+        <section>
+            <h3>&#9881; My Technical Skills</h3>
+            <p style="text-align: center;">These are the foundational skills I am currently building:</p>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">&#60;&#47;&#62;</div>
+                    <p>HTML5 & CSS3</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">&#9883;</div>
+                    <p>C++ Basics</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">&#128188;</div>
+                    <p>Python</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">&#128220;</div>
+                    <p>Microsoft Office</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">&#128190;</div>
+                    <p>Database (SQL)</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">&#128295;</div>
+                    <p>VS Code</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section>
+            <h3>&#128200; Project Showcase</h3>
+            <p>These are the projects I have worked on during my first semester:</p>
+
+            <div style="overflow-x: auto;">
+                <table class="project-table">
+                    <thead>
+                        <tr>
+                            <th>Project Title</th>
+                            <th>Description / Goal</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="project-row">
+                            <td><strong>ATM System (C++)</strong></td>
+                            <td>A console-based ATM simulation with balance check, withdrawal, and deposit options. Focus: C++ functions & logic.</td>
+                            <td><span class="status-badge completed">Completed</span></td>
+                        </tr>
+
+                        <tr class="project-row">
+                            <td><strong>Eco-Builder City (Scratch Game)</strong></td>
+                            <td>A 3-level educational game about sustainability involving quizzes, trash sorting, and pollution cleanup. Focus: Scratch logic & UI.</td>
+                            <td><span class="status-badge completed">Completed</span></td>
+                        </tr>
+
+                        <tr class="project-row">
+                            <td><strong>Library Management System (C++)</strong></td>
+                            <td>A console-based system for managing book records using arrays/structs and file handling. Focus: Functions + File Handling.</td>
+                            <td><span class="status-badge in-progress">In Progress</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section>
+            <h3>&#128231; Follow My Journey</h3>
+            <p style="text-align: center; margin-bottom: 20px;">
+                Connect with me on social media to see my latest work and interests!
+            </p>
+
+            <div class="social-links">
+                <a href="https://github.com/seemalnoor05-dotcom" target="_blank" class="social-icon">&#9733; GitHub</a>
+                <a href="mailto:seemalnoor05@gmail.com" class="social-icon">&#128187; Email</a>
+                <a href="https://www.instagram.com/seemalnoor5/" target="_blank" class="social-icon">&#128247; Instagram</a>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
